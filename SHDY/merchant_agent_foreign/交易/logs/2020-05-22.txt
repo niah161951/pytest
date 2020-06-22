@@ -1,0 +1,289 @@
+[2020-05-22 15:27:21] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:27:21] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:27:21] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:27:21] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 621
+[2020-05-22 15:27:21] [INFO] 被扫：{
+  "body": {
+    "mer_order_no": "3538999139613523",
+    "pay_amount": "1",
+    "pay_no": "04290080479101",
+    "pay_result": "F",
+    "pay_type": "02"
+  },
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "00",
+    "res_msg": "\u8c03\u7528\u4ea4\u6613\u5931\u8d25",
+    "res_time": "20200522152721",
+    "sign": "cUK+6lJ1tA69XjDX9bBE2MoiCprADdHIi8iKOuf4X3fcF+QO52nQUHSKDH0Hiqt0VuwaxJLF4Fa4UM5tDvQLrF0FXGZP9Aj9fSUG1ey4iGqou0IkiVEDYyIt2cY6eLlH3pvAHyA6JYE43bbYUvkzpH1O7qr0GyuRx6x1/UxihAtbqW72/F9WQO2wt9mOUo4Ig/AXmOBWfRVaSn2pZ4T5Bn72vTclvh7yKBRQjvSyGDtjHItmRUJCHVap5ZMGoiGl8mDAImkIjis7ylyFxm+oKabdEPTAmrvoZHLMRoFH14BUFP8vDK4xs1qVfyq3aCcb/GG0x9w0bFmPgq/kTprTLw==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:27:21] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:27:21] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:27:21] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:27:21] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 499
+[2020-05-22 15:27:21] [INFO] 查询：{
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "P0",
+    "res_msg": "\u7b7e\u540d\u4e0d\u6b63\u786e",
+    "res_time": "20200522152722",
+    "sign": "g04/717vKz7LTZrG7jhMfh9R+79MBijfo8ZdkhUvDbHEdNzqX4rGZABY2OYioHMpV1ctE26HwgfkulQcXtH4ih9XTEMLz61Sbs1dFsIAA/WewAdUGWnw9Ci1uRLtRa/yvX9N0dOo1MFgHVLwWbFSipya/jbGgTipNPXMp0liaxEjzjyQG90aiUA0W0awA8MkIe4GXH4piNIxiBDj2RBIlDMpH3jW2uPzHQGcS0HH/9cCIOLGt+B79erCRCSwMEyYEGOF92SjpQdnQENj+DMHYRF1TEq7A3fF2T7bzejrYVQxIJfrHM8OKrW66j5AMariUTGv8iyS9Q9uXfz99MO95w==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:27:21] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:27:21] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:27:21] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:27:21] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 508
+[2020-05-22 15:27:21] [INFO] 退款：{
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "PA",
+    "res_msg": "\u8be5\u8ba2\u5355\u672a\u652f\u4ed8\u6210\u529f",
+    "res_time": "20200522152722",
+    "sign": "lFdKo8LbSuIYrgOQ5MXGW3kazZpxHgxGqFHz4JNROBusVXvGtAc6xqKzYSugT7RL06DSct/SfsrDNYKidrrgMY7iqMnPj5TFG9I6ITIzyfq/13M0w1ddaTPQT9gIoXQWCegE2S11T475P41XxzKdfwPXCTN/T0eQNhEaeoe7rKsvprJEguJbAAfA3ilbMPUqn6zmck+vasRV74vKyBM1XyBBd3kGL3+mIRVmYSFgge3XR/s6OCFkw4tpgOeqKQA2gnmUmL8hSaLf2hj1wsfa+/nsXSfZFFwQuyQ09tZt/NVot4lHMAuSVSqnjTFUHGgXcwRuUD4FuzQfc6/VCC55sA==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:29:39] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:29:39] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:29:39] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:29:39] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 624
+[2020-05-22 15:29:39] [INFO] 被扫：{
+  "body": {
+    "mer_order_no": "4852085033015343238",
+    "pay_amount": "1",
+    "pay_no": "04290080479289",
+    "pay_result": "F",
+    "pay_type": "02"
+  },
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "00",
+    "res_msg": "\u8c03\u7528\u4ea4\u6613\u5931\u8d25",
+    "res_time": "20200522152940",
+    "sign": "xl4un/Q1OSbc2/uBkDTNSbuRVqMs/0D7RaNbRIM8t0WZx3mHjYZRRte+t/gUAMbk+5RXgQKdr2YUPzOGjJ37T/50ENzwafoxQVsBxT/Gz7SzuYISInFkHCGIrHEHOh423M3+aIPApRBNn5EykOnpBXtMGb5FJ87ZszTjIXcsG5DKaSMAqXGHjMWsTRGE+JglVTclC7PUp4NxEBSu5A5LxXYLtwfDQWWgFJSYXmQ57pQz8/CxurnTz0OoMciyWbl8KiQxQvJ6y41Jc+T2LRjVlLYajhqzRaIlhng2mGR6puUtBcbALx6TYhUgOvF6HvKj3hV4c2izPcpIhMRv+5PXqw==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:29:55] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:29:55] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:29:55] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:29:56] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 619
+[2020-05-22 15:29:56] [INFO] 被扫：{
+  "body": {
+    "mer_order_no": "30332362628571",
+    "pay_amount": "1",
+    "pay_no": "04290080479309",
+    "pay_result": "F",
+    "pay_type": "02"
+  },
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "00",
+    "res_msg": "\u8c03\u7528\u4ea4\u6613\u5931\u8d25",
+    "res_time": "20200522152956",
+    "sign": "cfCLuCusXsq3NOfMMoH5gE49ksqYky/4kqPq2ZNNFDVJAYdakyDWJkzRd+b5MKciQjPO/ASYSRgwcB2qj+IPUm/n0hGB42Q9O0AzU8Joq5QydSkyJPSjUaDiJh15nuXFb/TcrCHriyefFYKh0sux2+Mk34Q6+SBnPKxTF9O6uqqNWrDYw+iqoVuFq8s9TsqHfAfKNeLC2uo3qfYHb7f3QdyTegkJXFiqUR4KMjBJXUud4XjJTV2vseKnA6yiPlGszfzh+aqQa0w0w4YKfyBzC1sOod+YTymoPFJN1PNZSsNUCrp+tfMWNfEj4OzSfY4MzOuMnOD3aE0gsE9FaK2tAA==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:30:48] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:30:48] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:30:48] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:30:48] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 617
+[2020-05-22 15:30:48] [INFO] 被扫：{
+  "body": {
+    "mer_order_no": "676215660637",
+    "pay_amount": "1",
+    "pay_no": "04290080479387",
+    "pay_result": "F",
+    "pay_type": "02"
+  },
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "00",
+    "res_msg": "\u8c03\u7528\u4ea4\u6613\u5931\u8d25",
+    "res_time": "20200522153048",
+    "sign": "FslUjFLPhKEEnRrg1ZzGgGX1PpVXrDu+O/+GpnU/QCg4xNh9KOLB5Il3ThNB8B0UhPU4T1ICbJHga5E5ZrrRahfhI7tDyfic5R0N3Z/KTFTflRxHj5iG0+ZWbZaOxCrunmRaN3tUzE14He8yOQSBsY9ji7EJUVNIXYt9p0i+A/ZGqsy6QhnC19W/y9YLyfX7Ah9idkzIHtOpbJGBlA/Cn+lpzPGNElcuSYVvOQDkWHolmnEO6w5McwXGzLkJWpobguX7KfJzjKY/fdCv0kr5zsLUWZVsJtIjjYe5sshjJQK+zn39+KBhusyLkbc/W65auwXPDgbhLYvp8KKB4bD5kA==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:31:59] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:31:59] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:31:59] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:31:59] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 619
+[2020-05-22 15:31:59] [INFO] 被扫：{
+  "body": {
+    "mer_order_no": "30408379427395",
+    "pay_amount": "1",
+    "pay_no": "04290080479527",
+    "pay_result": "F",
+    "pay_type": "02"
+  },
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "00",
+    "res_msg": "\u8c03\u7528\u4ea4\u6613\u5931\u8d25",
+    "res_time": "20200522153159",
+    "sign": "xaWxn4SahGzyfHoIf4sQRHxYS/6OuIpNMGTBMUQ6T4k7fXtN/HrX5aWPXXTcrg1iuTfvUp5s6YoT5i7aWOs5Xa5qgAq/MtNK4YDDWFPR1bsqJwT9ktqWhEt979fay8XCMxU6kRGR1bumGjg5OQSCu08eB5LTt7T6nmmqI/PCB32Lq45D5Esyrb6h0dcPhGLZXNc5NHQkOrOZ91QcOOkjfw3jtmiw+xBXnmTPnN+eU7Jx9no8HyqABOF0oTPaCI2AINzPWfWvIReo+twNbS2VCILxX8IEX58mOSXfSiqYz/D+recAPA+zEKUHpdWQIGWhD8XipdSrc3YQXaNUXCSTeg==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:31:59] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:31:59] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:31:59] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:31:59] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 499
+[2020-05-22 15:31:59] [INFO] 查询：{
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "P0",
+    "res_msg": "\u7b7e\u540d\u4e0d\u6b63\u786e",
+    "res_time": "20200522153200",
+    "sign": "D4mCG1Ep/gpESSAH9VXs2bbAiHrz49NTDBco5r0Yil9OI/3kU0MPgdSwCeD2oGnQIn/0kgZqu5HluHJbJBbRqKjqAhTtL8yuZiwUrhqsBUIcrBPXAfmdnAPe1nKnMTLHt8LL5QDZl994kvRMAvjcVpyWhq7ldKy+sMiT7rtiWyvKV2NEHvA61uu64pgCXx0m4LC2ieXwe18Q9qrbgAC2GEm0pmg7kFQ8kYLtSue7Qe/4VzvS2aeTzFAxUbjqzN5ol2RVWxXR0y4yzHdJvzo87X4EXdLzHCxt0Lc3mjUdnHcP4c+rQXCq7IY87bdGGvLyErueOWlDDvJzOFbAErA9Kw==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:31:59] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:31:59] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:31:59] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:31:59] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 508
+[2020-05-22 15:31:59] [INFO] 退款：{
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "PA",
+    "res_msg": "\u8be5\u8ba2\u5355\u672a\u652f\u4ed8\u6210\u529f",
+    "res_time": "20200522153200",
+    "sign": "WjaN2zpG93+viuc0G3iPmFg0NAydbyYsfYsuVxNRgUmU3Nfxs5/J0JVISrBSEdi8uRcfJ5N7OR3WnNkaUAzKGOHDEoUiArseHGJ9NQZU8Iqm/HFJx9hn62ykk45+t8ptV+56IsIZwvX+tCzecYJbQTX6Fgfb7TeJVk1CRaWE/sSL4D2KtbJ1VCl792G4KwIIjjmlfnkCa/Qu/TEXVy/mPxqLMu37BUKYLg50/kX7VbMi8VCT8WoiDrNgPFxRnZmsFUYgaJ/XeliNbu/122jgdXq/1XZqyvHwj9bSER22uyk5dvsePytWy1fvz5uoNVBagZjsxxlXkoOdd7dfmLt1qw==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:36:43] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:36:43] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:36:43] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:36:44] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 624
+[2020-05-22 15:36:44] [INFO] 被扫：{
+  "body": {
+    "mer_order_no": "4069630568873282318",
+    "pay_amount": "1",
+    "pay_no": "04290080479928",
+    "pay_result": "F",
+    "pay_type": "02"
+  },
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "00",
+    "res_msg": "\u8c03\u7528\u4ea4\u6613\u5931\u8d25",
+    "res_time": "20200522153644",
+    "sign": "kPnnfZFSO4rp13miXEPXCVHawiUqEWE5FvM0IaOzIn8bIB0FnYKJqSOtcoOfOx0IqqIUggRL2jB1zUdTAFXiBho5Ey5o4A8clphs1S1bI0qJo8z5iezaPL1GXDWtxR5Tw+5cPiVn+0qLEMAE4LTVcUrlbYK+c9ZHGn3WQ27GfaCism1PE3DAZxh1hF3xgHhHuzCyYMDZZih70RxiVYe0gTrnVklkbFbRlP9+F1Tfc0/NGrRVVfDbsDcflv61KTlFlM5fPgk9Y3OR8pz/uXTNgtro6O/VAif7h3qQEjrpr5EPR9a5yOMS30Hug03JjBgsi3tQ2HYUJcBAH6vkfp0rPQ==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:36:44] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:36:44] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:36:44] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:36:44] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 499
+[2020-05-22 15:36:44] [INFO] 查询：{
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "P0",
+    "res_msg": "\u7b7e\u540d\u4e0d\u6b63\u786e",
+    "res_time": "20200522153644",
+    "sign": "GIAevGqdMoFEA5PJXDrnDdNdMeH7FlnMI35/aXrhEMUYp5OaYofTvBammbWfOi+ge9WU85mRyTabVubRzmjEtVtTPTb0PqtVblGpXswQ3AoyWgkVgArvkqnb8tJW9OJOSsI1sx0ECU1pTmjCd4KJRIHxRPuHkg9K4Z87hfa/Efx1153xdfdp5OIW4+bxed7vyaTauiCr9Dcyc8T2+/Sik+yX9yCnAPjEfMwLc+UbqOUqKYhoQWbzg65HQneP0dJ1qBysCLJds8OgAezuOWXN8ItvL2+wLoWl0CrwSga2bu68IF496ozCUUrAjLj/i3Q8xYIp3SqkaG9XLhuaTIVO7Q==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:36:44] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:36:44] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:36:44] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:36:44] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 508
+[2020-05-22 15:36:44] [INFO] 退款：{
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "PA",
+    "res_msg": "\u8be5\u8ba2\u5355\u672a\u652f\u4ed8\u6210\u529f",
+    "res_time": "20200522153644",
+    "sign": "vkI+/ZH50Vog/93n26dBKMv4OK9SY59YbzRTU5p2ypYik2i/x/eaLIORbh6Amq+RbhrXOyx6aJgnRfK2POkn2p2EdoP3cAmN6TJNksd8cFMQtI2hF2J4vxRwF/nL5p/b0Pb5s5E9vxSklplRgYfEKs6lZfp+lquKMxm4031gnWel2UTW8Tf54LjpHMtHjIwKKOV0qr+pgUcH/MVXhSE8SaKL50o60ZsQ4aJWEFl1lgrKeN+47QYQH1WQ5GfgJoTYWj7O3/O5+EAtdzKixrgwrHpG9TPJz8Yol96+KqZFYprqLT0wZHY2f+kcC6+TfzYdlYqH6sFQixcNFac49RHxLw==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:37:11] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:37:11] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:37:11] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:37:11] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 621
+[2020-05-22 15:37:11] [INFO] 被扫：{
+  "body": {
+    "mer_order_no": "4799059982002902",
+    "pay_amount": "1",
+    "pay_no": "04290080479969",
+    "pay_result": "F",
+    "pay_type": "02"
+  },
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "00",
+    "res_msg": "\u8c03\u7528\u4ea4\u6613\u5931\u8d25",
+    "res_time": "20200522153711",
+    "sign": "m21mvCScGw5A3cQPEC3jQLQK01mlPNPiSOchMnyLTDEAFoPmDfoWWOsotqDWRn5dVUYgYlVEPAA9CPYdaYycl2ZgVhYWDTYr0YwhOpRJTSHsCNPgu8kQwMmqQfmrajOt0YVHvQRh5Riiu6IKpT1BmlPeNy8GrKPtwgSdN79t/kzcSfTn1BVVTyUeqPvlG26oAPMamJZ6Nh0T6w6xIVAVJNCrcyU3HIe/Q+vIEO1rT1y7QFpauKrvPg+t7Zn5BnYducs8/cNQeL+t0SJzB/Yf4emY2OX8FyDv7ZO+ul/44NlBlIVZXmOZHvHEicJxuQ7stVbKVw+nJfg9GQ7R4Fd7cw==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:37:11] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:37:11] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:37:11] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:37:11] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 505
+[2020-05-22 15:37:11] [INFO] 被扫：{
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "P8",
+    "res_msg": "\u8ba2\u5355\u53f7\u4e0d\u80fd\u91cd\u590d",
+    "res_time": "20200522153711",
+    "sign": "jeSlGwdrBBYVbNZv/3yp3INgg5ILg30FLuTl35zH+6mIZB4o5dqKE8Lhmis3cu9JmClqXs7QSmLAzsV/U8exnfNYWGgMj4+J+wlt46oDO2iw9IMCTmUjgMozL+/dSa9SgueyB3zXNFLBdBESOfuZBpRXgmwTbWMrCSOOCZWALhyu3yl38SPoWPRZ45hMGgP8fCzoolbb9bx6Q6h3dkTJQPMYRRqf/5TisW+dEfp6d8pxg7z20xx0/Iuc/Jw4GSN1FZ7ZenkUr4RTcHX14ZE7R1GvicCQ6kqVmcR9SgqcLCtneRNv2NysyJVYkVasYH4LPkl/y1F8UpfYtAH2vQ4oiw==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:37:11] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:37:11] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:37:11] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:37:11] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 499
+[2020-05-22 15:37:11] [INFO] 查询：{
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "P0",
+    "res_msg": "\u7b7e\u540d\u4e0d\u6b63\u786e",
+    "res_time": "20200522153711",
+    "sign": "eZ16pnl9p9Tu5MaMwd3nJQ759uIqknY73zjYLwt5Vex/S2euxYuFrhqGrH6srUs830tnuly6K/wgeQS0Dkk9169Ckka8xhXG7C7qv00+RYx65WFq5ckEpFAMuZemkzwtIQSC0TSIyrn7EZnf8vyM1I2aYZ9U6uK4Rn/MnctiRIGYSLzRP6ONTE42CfcJ+Djp7Kmz1vW76UbbLc8wEj4k1qSjEfrxiJWvE0ePRvdJxfKMiDFDSqPf+JPFis7HQJRhcJtkKWMInxqX3sBpy7A9Iow1SP3PS1b9a/nf3QdONsjo3nnhSRRF6RmCvnhUQai0ZqioNmkuSVDbJxUB2C70wA==",
+    "trm_id": "08001435"
+  }
+}
+[2020-05-22 15:37:11] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:37:11] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-05-22 15:37:11] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-05-22 15:37:11] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 508
+[2020-05-22 15:37:11] [INFO] 退款：{
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "PA",
+    "res_msg": "\u8be5\u8ba2\u5355\u672a\u652f\u4ed8\u6210\u529f",
+    "res_time": "20200522153711",
+    "sign": "fScOZaxD2YTUIx8Od9AmjUUiRonY5IYqjZG0+ev9rkcnc+7EOR9toWaizqx8TLmGfNVbpf5AX6mEJPGYARFljbpdptamAgmnaXDc7Qzc8WfkU/+BvcD5EGcnARhHEiYUwjML/c/nbk+b0D9dosrxqgrf4CNI1JZROQEiwDoP80MLbNsmCa+PI55hrZ1tB1c4sHogWVIqM6EdpKGhvTjRiuEID1t+loqlNHyASHN9DdhVsqI1foRZx9KovRxaVkMqpUxLFYDR00ZCzVcYUxRmBcj6jhS4xJuj43jC+nCVgRcDMeM6T11mDhNMpkhRkh5FCk3DDgevoAqhUlF2ld12kA==",
+    "trm_id": "08001435"
+  }
+}

@@ -1,0 +1,52 @@
+[2020-06-09 16:56:13] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-06-09 16:56:13] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-06-09 16:56:13] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-06-09 16:56:14] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 621
+[2020-06-09 16:56:14] [INFO] ±»É¨£º{
+  "body": {
+    "mer_order_no": "4330913316722344",
+    "pay_amount": "1",
+    "pay_no": "05310083093556",
+    "pay_result": "F",
+    "pay_type": "02"
+  },
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "00",
+    "res_msg": "\u8c03\u7528\u4ea4\u6613\u5931\u8d25",
+    "res_time": "20200609165615",
+    "sign": "b17lGz0eX89mwsEFlH9YKsupAgYj0xJv2pJK3qJdHGUUoYMgri84ktC0M0dZEoq/jJHb0EKPou7wepLk7S3pCyxnhv2KCPNpUCzuRgBtrpZxFBY7+d9jDQHEHukGfquhxShFPVbTdVb+eKdN1V37WnGvs6tDmvcoBncD8E1RNc80vkR/s1vWH8YUnWxbB+gW58TdSvBxdCVfBZYJMrPgC3gdoh6jz7IcxJUkSM0rtFElfsRUrmrlvSNWJaBcJyFSuKZMIagy5VTI44pxmYHTww4zsAAZfJS8BFLbpzy6/XfwwczMPcoEf7Mj0nrV8UweGopegK1h3ojR6AZcvijBng==",
+    "trm_id": "08001435"
+  }
+}
+[2020-06-09 16:56:14] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-06-09 16:56:14] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-06-09 16:56:14] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-06-09 16:56:14] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 499
+[2020-06-09 16:56:14] [INFO] ²éÑ¯£º{
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "P0",
+    "res_msg": "\u7b7e\u540d\u4e0d\u6b63\u786e",
+    "res_time": "20200609165615",
+    "sign": "J6EIJz75K3wNVO9c7Tj9j/bfVHf6HyV3xlFpQ2V+MSVgzkh1+IdDkLl4GeC4vcsso4+W0xeakdN8xVkCqddx3sMv+Y2FUy2EfTli++uKs2jRmDohN8IB6Y6DaZodGFNBi6eeVwRLT1P+H5cR/20cPOkCuPtLbNt/dNrBEddiy6iI25f0iyW/UgcUFiN0DracWBuj4BVPzI2nfqqPh7X2j3YlbcCWLF9MUTgt/RqzWP4+L5V77hpZ4drIAYEoXMFdpTRMC05mN3JFMp2jHgse6kkZzuQc/psYgNeBYqch7qpOqatngB4IqoY2fiYoa8bKtrRewrWhQRoV9Aii7ftcKw==",
+    "trm_id": "08001435"
+  }
+}
+[2020-06-09 16:56:14] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-06-09 16:56:14] [DEBUG] http://192.168.31.161:28380 "POST /test_agent/testScan/getSign HTTP/1.1" 200 172
+[2020-06-09 16:56:14] [DEBUG] Starting new HTTP connection (1): 192.168.31.161:28380
+[2020-06-09 16:56:14] [DEBUG] http://192.168.31.161:28380 "POST /transaction_agent/scan/trans HTTP/1.1" 200 508
+[2020-06-09 16:56:14] [INFO] ÍË¿î£º{
+  "head": {
+    "merc_id": "872112378410001",
+    "org_id": "125",
+    "res_code": "PA",
+    "res_msg": "\u8be5\u8ba2\u5355\u672a\u652f\u4ed8\u6210\u529f",
+    "res_time": "20200609165615",
+    "sign": "HTHOjR8QOFtm8oA0vE+mAl6IdjO/vP5nrh0GA/H+6n9XQRWIJe8OT5P3IMlWDKs+JCEwXcugMNadJwlgsbcaFlX7X3ePjnA+sK2rR7p7S16b90WPEHKESfKpzzQx17g4jOjlK501HUNze6eIbf5VAMmgvOKvFz76g+Trc3vlUyvGWvrfQVbUutEErP1BSOSM3AKoqmEvf0f5GI4I5IdC6aGu+73IPSBn12xDX8EqBpOkRG2ZrnVWUBEemt7zJTpmBwUBPtlps9oHtFrzF5rSDI02guUMB7gIqBuudA/FmxuTmvM3qTBxr3PF028y9mSko62XNd4XdeVR4Siasrk/MQ==",
+    "trm_id": "08001435"
+  }
+}
